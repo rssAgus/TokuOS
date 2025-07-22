@@ -21,7 +21,17 @@
     shell = pkgs.bash;
   };
 
+  fonts.packages = with pkgs; [
+	  nerd-fonts.fira-code
+	  nerd-fonts.space-mono
+	  nerd-fonts.hurmit
+  ];
+
+  # Unfree pkgs
   nixpkgs.config.allowUnfree = true;
+
+  # Flakes & stuff
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   programs.hyprland.enable = true;
 
@@ -38,6 +48,21 @@
     zip
     unzip
   ];
+
+  # Flatpak enabled
+  services.flatpak.enable = true;
+
+  # Docker
+    virtualisation.docker = {
+    enable = true;
+  };
+
+  # Enable the OpenSSH daemon.
+  services.openssh.enable = true;
+
+  #Virtualization with LibVirt
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
 
   system.stateVersion = "25.05";
 }

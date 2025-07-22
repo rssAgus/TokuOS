@@ -9,6 +9,8 @@
     vscode
     kitty
     wofi
+	libinput-gestures
+	libinput
   ];
 
   programs.git = {

@@ -33,7 +33,6 @@
   environment.systemPackages = with pkgs; [
     git
     gh
-    tar
     untar
     curl
     zip

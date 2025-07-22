@@ -18,6 +18,8 @@
     shell = pkgs.bash;
   };
 
+  nixpkgs.config.allowUnfree = true;
+
   users.users.arusso = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "docker" ];

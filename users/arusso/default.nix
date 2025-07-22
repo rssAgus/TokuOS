@@ -10,5 +10,7 @@
     ./programs.nix
   ];
 
+  programs.zsh.enable = true;
+
   home.stateVersion = "25.11";
 }

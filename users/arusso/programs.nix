@@ -9,8 +9,6 @@
     vscode
   ];
 
-  programs.zsh.enable = true;
-
   programs.git = {
     enable = true;
     userName = "rssAgus";

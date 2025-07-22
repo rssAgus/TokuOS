@@ -13,6 +13,7 @@ This repository contains **my personal operating system**, built on top of **[Ni
 - 🎨 Personalized UI configs **(WIP)**
 - 🔐 Has some Cybersecurity tools in case you need it tho
 - 📦 Host-specific system and package configurations, all ordered **(WIP)**
+- ✏️ You're free to use my dots as an example config for **Home Manager with Flakes**, it would be an honor :)
 
 ---
 

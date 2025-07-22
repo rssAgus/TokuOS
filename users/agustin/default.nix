@@ -7,9 +7,6 @@
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  services.desktopManager.cosmic.enable = true;
-  services.displayManager.cosmic-greeter.enable = true;
-
   imports = [
     ./programs.nix
   ];

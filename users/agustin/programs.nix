@@ -32,14 +32,12 @@
     discord
     cmatrix
     btop
+    kitty
   ];
 
   programs.bash.enable = true;
   
   programs.git.enable = true;
-
-  services.desktopManager.cosmic.enable = true;
-  services.displayManager.cosmic-greeter.enable = true;
 
   programs.starship = {
     enable = true;

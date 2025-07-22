@@ -10,6 +10,9 @@
   time.timeZone = "America/Argentina/Buenos_Aires";
   i18n.defaultLocale = "es_AR.UTF-8";
 
+  services.desktopManager.cosmic.enable = true;
+  services.displayManager.cosmic-greeter.enable = true;
+
   networking.networkmanager.enable = true;
 
   users.users.agustin = {

@@ -23,6 +23,8 @@
 
   nixpkgs.config.allowUnfree = true;
 
+  programs.hyprland.enable = true;
+
   users.users.arusso = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "docker" ];

@@ -14,7 +14,5 @@
 
   programs.bash.enable = true;
 
-  programs.hyprland.enable = true;
-
   home.stateVersion = "25.11";
 }

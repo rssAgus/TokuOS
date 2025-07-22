@@ -30,7 +30,6 @@
     qemu
     google-chrome
     discord
-    kitty
     cmatrix
     btop
   ];

@@ -7,6 +7,7 @@
     zsh
     bat
     vscode
+    kitty
   ];
 
   programs.git = {

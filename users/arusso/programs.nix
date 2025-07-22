@@ -8,6 +8,7 @@
     bat
     vscode
     kitty
+    wofi
   ];
 
   programs.git = {

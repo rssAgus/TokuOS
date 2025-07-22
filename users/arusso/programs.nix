@@ -12,6 +12,7 @@
 	libinput-gestures
 	libinput
 	wmctrl
+	hyprpaper
   ];
 
   programs.git = {

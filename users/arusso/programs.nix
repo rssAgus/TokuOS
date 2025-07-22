@@ -11,6 +11,7 @@
     wofi
 	libinput-gestures
 	libinput
+	wmctrl
   ];
 
   programs.git = {

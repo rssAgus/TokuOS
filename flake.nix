@@ -16,7 +16,7 @@
         ./hosts/default.nix
         ./hardware-configuration.nix
 
-        home-manager.nixosMoodules.home-manager 
+        home-manager.nixosModules.home-manager 
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;

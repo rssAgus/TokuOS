@@ -21,7 +21,7 @@
   users.users.arusso = {
     isNormalUser = true;
     extraGroups = [ "wheel" "networkmanager" "docker" ];
-    shell = pkgs.zsh;
+    shell = pkgs.bash;
   };
 
   services.xserver.enable = true;
